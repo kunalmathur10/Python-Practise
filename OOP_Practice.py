@@ -55,7 +55,6 @@ class BankAccount:
         self.balance += amount
         print(f"Rs. {amount} deposited successfully , Balance: Rs. {self.balance}")
         return self.balance
-        
     
     def withdraw(self, amount):
         if amount <=0:
